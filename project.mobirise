@@ -26,7 +26,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.2",
-    "uniqCompNum": 13,
+    "uniqCompNum": 14,
     "versionPublish": "4.7.2"
   },
   "pages": {
@@ -405,7 +405,7 @@
             "showButtons": false,
             "paddingTop": 2,
             "paddingBottom": 2,
-            "columns": "6",
+            "columns": "4",
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
             "parallax": true,

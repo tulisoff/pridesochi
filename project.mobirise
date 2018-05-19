@@ -103,7 +103,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box8-2\">О НАС</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features1-4\">АВТОПАРК</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://tulisoff.github.io/pridesochi/\">КАЛЬКУЛЯТОР СТОИМОСТИ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://tulisoff.github.io/pridesochi/\">МЕСТА</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://tulisoff.github.io/pridesochi/\">КОНТАКТЫ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box8-2\">О НАС</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-5\">АВТОПАРК</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://tulisoff.github.io/pridesochi/\">КАЛЬКУЛЯТОР СТОИМОСТИ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://tulisoff.github.io/pridesochi/\">МЕСТА</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://tulisoff.github.io/pridesochi/\">КОНТАКТЫ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -315,7 +315,7 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-720x1080.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1591x1080.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#90a878",
@@ -324,8 +324,8 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.2"
           },
           "title": "О НАС",
           "text": "ТУТ КАКАЯ НИБУДЬ ОХРЕНИТЕЛЬНАЯ КАРТИНКА И НЕБОЛЬШОЙ ТЕКСТ О НАШЕЙ ПИЗДАТОСТИ",

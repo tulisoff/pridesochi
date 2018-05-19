@@ -487,3 +487,24 @@ h6,
 #msg-box8-2 .lead {
   color: #ffffff;
 }
+#msg-box8-7 .mbr-section-title,
+#msg-box8-7 p {
+  color: #fff;
+}
+#msg-box8-7 .mbr-section-title {
+  color: #2e2e2e;
+}
+#msg-box8-7 .lead P {
+  color: #2e2e2e;
+}
+#header3-a .mbr-section-title,
+#header3-a .mbr-section-subtitle {
+  text-align: center;
+}
+#form1-b .form-control-label {
+  color: #232323;
+}
+#social-buttons2-c .mbr-section-title,
+#social-buttons2-c .btn-social {
+  color: #232323;
+}

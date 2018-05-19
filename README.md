@@ -1,0 +1,2 @@
+# pridesochi
+GitHub Pages

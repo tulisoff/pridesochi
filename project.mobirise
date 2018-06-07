@@ -22,13 +22,18 @@
       },
       "additionalSetColors": [
         "#2e2e2e",
-        "#ffa403"
+        "#ffa403",
+        "#e1e1e1",
+        "#f2f2f2",
+        "#0e9c9c",
+        "#49c9ce"
       ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.2",
-    "uniqCompNum": 19,
-    "versionPublish": "4.7.2"
+    "uniqCompNum": 20,
+    "versionPublish": "4.7.7",
+    "siteFonts": []
   },
   "pages": {
     "index.html": {
@@ -89,12 +94,18 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#c0a375!important"
+            },
+            "A": {
+              "font-size": "10px"
+            },
+            ".btn": {
+              "font-size": "14px"
             }
           },
           "_params": {
             "logo": true,
-            "showBrand": true,
-            "hideButtons": true,
+            "showBrand": false,
+            "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": true,
@@ -104,7 +115,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box8-2\">О НАС</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-5\">АВТОПАРК</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://tulisoff.github.io/pridesochi/\">КАЛЬКУЛЯТОР СТОИМОСТИ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://tulisoff.github.io/pridesochi/\">МЕСТА</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://tulisoff.github.io/pridesochi/\">КОНТАКТЫ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box8-2\">О НАС</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-5\">АВТОПАРК</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box8-7\">ЦЕНЫ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features3-8\">КУДА ПОЕХАТЬ?</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://tulisoff.github.io/pridesochi/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"index.html#form1-b\">ЗАБРОНИРОВАТЬ</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -132,11 +143,11 @@
           "_params": {
             "showTitle": true,
             "showText": true,
-            "showButtons": false,
+            "showButtons": true,
             "showArrow": true,
             "contentAlign": "right",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": false,
             "bgColor": "#a07e49",
@@ -152,13 +163,21 @@
             "overlayOpacity": "0.4"
           },
           "title": "Аренда автомобилей в Сочи",
-          "text": "Тут текст о том как с нами удобно и выгодно",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "text": "Наслаждайтесь отдыхом в Сочи и Абхазии вместе с \"Прайд\"!",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"index.html#msg-box8-7\" data-toolbar=\"-mbrBtnMove\">РАСЧЁТ СТОИМОСТИ</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"index.html#form1-b\" data-toolbar=\"-mbrBtnMove\">ОСТАВИТЬ ЗАЯВКУ</a>",
           "_tags": [
             "Тема"
           ],
           "_name": "header4",
-          "_anchor": "header4-1"
+          "_anchor": "header4-1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "46px"
+            },
+            ".mbr-section-lead": {
+              "font-size": "22px"
+            }
+          }
         },
         {
           "_styles": {
@@ -166,9 +185,15 @@
               "color": "#fff"
             },
             ".lead": {
-              "color": "#000000"
+              "color": "#000000",
+              "text-align": "center",
+              "font-size": "18px"
             },
             ".mbr-section-title": {
+              "color": "#000000",
+              "font-size": "46px"
+            },
+            ".lead P": {
               "color": "#000000"
             }
           },
@@ -182,7 +207,7 @@
             "bgImage": "@PROJECT_PATH@/assets/images/1-1024x630.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#efefef",
+            "bgColor": "#e1e1e1",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -191,8 +216,8 @@
             "overlayColor": "#000000",
             "overlayOpacity": "0.2"
           },
-          "title": "О НАС",
-          "text": "ТУТ КАКАЯ НИБУДЬ ОХРЕНИТЕЛЬНАЯ КАРТИНКА И НЕБОЛЬШОЙ ТЕКСТ О НАШЕЙ ПИЗДАТОСТИ",
+          "title": "О НАС<br>",
+          "text": "<p>Компания \"Прайд\" предлагает своим клиентам возможность аренды автомобиля в Сочи. Широкий выбор автомобилей, простая система бронирования транспортных средств, надежность, отличное состояния предлагаемых автомобилей и услуги страхования делают сотрудничество с нами выгодным и комфортным. Более подробно об условиях предоставления услуги проката автомобилей, необходимых документах и прочих вопросах вы можете узнать на нашем сайте, или проконсультировавшись со специалистами компании \"Прайд\" по контактным телефонам или электронной почте <b><i>prideprokatit@yandex.ru</i></b></p><p><br></p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
           "_tags": [
             "Тема"
@@ -206,16 +231,17 @@
               "text-align": "center"
             },
             ".mbr-section-title": {
-              "color": "#efefef"
+              "color": "#ffffff",
+              "font-size": "46px"
             }
           },
           "_params": {
-            "showMeta": true,
+            "showMeta": false,
             "paddingTop": "3",
             "paddingBottom": 1,
             "bgColor": "#ffa403"
           },
-          "title": "Автопарк",
+          "title": "Автопарк<br>",
           "meta": "",
           "_tags": [
             "Тема"
@@ -282,7 +308,7 @@
           },
           "media4": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/solaris-2017-colors-marina-blue-600x271.png",
+              "src": "@PROJECT_PATH@/assets/images/solaris-2017-marina-blue-n4b-600x305.png",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -308,17 +334,17 @@
             }
           },
           "title1": "Volkswagen Polo Sedan",
-          "subtitle1": "",
-          "caption1": "Об автомобиле чё нибудь",
+          "subtitle1": "<b>от 1000 руб./сутки</b>",
+          "caption1": "Этот автомобиль с гордостью несет легендарное имя. Вот уже 40 лет пять поколений Volkswagen Polo верой и правдой служат своим владельцам, изо дня в день делая жизнь удобнее, комфортнее и красивее.",
           "title2": "KIA Rio",
-          "subtitle2": "",
-          "caption2": "Об автомобиле чё нибудь",
+          "subtitle2": "<b>от 1100 руб./сутки</b>",
+          "caption2": "Продуманность и внимание к деталям выделяют Kia Rio на дороге. Куда бы Вы ни отправились, готовьтесь замечать внимание окружающих к Вам и Вашему автомобилю",
           "title3": "Skoda Rapid",
-          "subtitle3": "",
-          "caption3": "Об автомобиле чё нибудь",
-          "title4": "Huyndai Solaris",
-          "subtitle4": "тут однозначно нужна другая картика Солярки",
-          "caption4": "Об автомобиле чё нибудь",
+          "subtitle3": "<b>от 1200 руб./сутки</b>",
+          "caption3": "Rapid получил доступную цену, вместительный багажник, его отличает высокий уровень безопасности и достаточно богатое базовое оснащение",
+          "title4": "<br>Huyndai Solaris",
+          "subtitle4": "<b>от 1100 руб./сутки</b>",
+          "caption4": "Удобный и экономичный. Создан для городских дорог и для трасс.\nОцените в движении великолепный баланс всех характеристик Huyndai Solaris",
           "title5": "Trendy Website Blocks",
           "subtitle5": "Choose from the large selection of blocks",
           "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
@@ -339,6 +365,15 @@
           "_styles": {
             ".striped .mbr-cards-col:nth-child(2n+1)": {
               "background-color": "#ffa403"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-text": {
+              "color": "#ffffff"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-subtitle B": {
+              "color": "#ffffff"
             }
           }
         },
@@ -361,10 +396,10 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-3-720x1080.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#F2F2F2",
+            "bgColor": "#cccccc",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -392,7 +427,7 @@
             "showMeta": true,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff"
+            "bgColor": "#efefef"
           },
           "title": "Куда поехать?",
           "meta": "Куда поехать?",
@@ -411,12 +446,12 @@
             "showButtons": false,
             "paddingTop": 2,
             "paddingBottom": 2,
-            "columns": "4",
+            "columns": "3",
             "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-1620x1080.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#efefef",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -494,8 +529,8 @@
           "title1": "Место в Сочи",
           "subtitle1": "место в сочи",
           "caption1": "Место в сочи",
-          "title2": "Место в Сочи\r<div>место в сочи\r</div><div>Место в сочи</div>",
-          "subtitle2": "Место в Сочи\r<div>место в сочи\r</div><div>Место в сочи</div>",
+          "title2": "Место в Сочи\n<div>место в сочи\n</div><div>Место в сочи</div>",
+          "subtitle2": "Место в Сочи\n<div>место в сочи\n</div><div>Место в сочи</div>",
           "caption2": "Место в Сочи\n<br>место в сочи\n<br>Место в сочи",
           "title3": "Место в Сочи\r<div>место в сочи\r</div><div>Место в сочи</div>",
           "subtitle3": "Место в Сочи\r<div>место в сочи\r</div><div>Место в сочи</div>",
@@ -519,27 +554,32 @@
             "Тема"
           ],
           "_name": "features3",
-          "_anchor": "features3-8"
+          "_anchor": "features3-8",
+          "_styles": {
+            "H4": {
+              "color": "#000000"
+            }
+          }
         },
         {
           "_params": {
             "showTitle": true,
             "showSubTitle": true,
-            "labelsColor": "#232323",
+            "labelsColor": "#ffffff",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-1620x1080.jpg",
             "parallax": true,
             "bgColorRadio": false,
-            "bgColor": "#fff",
+            "bgColor": "#efefef",
             "overlay": false,
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
           "title": "ОСТАВИТЬ ЗАЯВКУ",
           "subtitle": ".",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ОТПРАВИТЬ</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ОТПРАВИТЬ</a>",
           "form": {
             "action": "tulisoffivan@gmail.com",
             "alerts": {
@@ -574,35 +614,12 @@
           "_anchor": "form1-b",
           "_styles": {
             ".form-control-label": {
-              "color": "#232323"
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
             }
           }
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .btn-social": {
-              "color": "#232323"
-            }
-          },
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "text": "СЛЕДУЙ ЗА НАМИ!",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://tulisoff.github.io/pridesochi/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://tulisoff.github.io/pridesochi/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://tulisoff.github.io/pridesochi/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"VKontakte\" target=\"_blank\" href=\"#\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-vkontakte\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-danger\" title=\"Odnoklassniki\" target=\"_blank\" href=\"#\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-odnoklassniki\"></i></a> ",
-          "_tags": [
-            "Тема"
-          ],
-          "_name": "social-buttons2",
-          "_anchor": "social-buttons2-c"
         }
       ]
     }
